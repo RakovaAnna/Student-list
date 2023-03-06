@@ -1,0 +1,101 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.msg {
+    padding: 10px;
+    height: 2.5rem;
+}
+
+.list {
+    text-align: left;
+    max-width: 80%;
+    margin: auto;
+}
+
+.input_fio {
+    display: flex;
+    align-content: center;
+    margin: 10px 0;
+}
+
+.form_student_info {
+    margin: 20px 0;
+}
+
+.container_student_info {
+    margin: 20px;
+}
+
+.icon_delete {
+    width: 2rem;
+    margin: 10px;
+}
+
+.icon_delete:hover {
+    color: #0b5ed7;
+    cursor: pointer;
+}
+
+.list-group-item {
+    display: inline-flex;
+}
+
+.list-group-item:hover {
+    background-color: rgba(121, 175, 254, 0.5);
+}
+
+.btn-add {
+    text-align: center;
+    justify-content: center;
+}
+
+.lbl {
+    font-weight: bold;
+    padding: 12px 10px;
+    text-align: right;
+}
+
+.collection_btn {
+    text-align: right;
+}
+
+.sidenav {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 2;
+    top: 0;
+    right: 0;
+    background-color: #fad087;
+    overflow-x: hidden;
+    padding-top: 60px;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+    text-decoration: none;
+    color: #818181;
+}
+
+.sidenav .closebtn:hover {
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
